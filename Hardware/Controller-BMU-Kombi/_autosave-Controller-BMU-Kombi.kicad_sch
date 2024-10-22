@@ -3145,7 +3145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Batteriestecker:Batteriestecker"
 			(at 185.42 121.92 0)
 			(effects
 				(font
