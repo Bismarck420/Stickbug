@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Allgemein\Privat\Projekte\Stickbug\BMU\BMU.kicad_sch</source>
+    <date>2024-10-04T16:35:15+0200</date>
+    <tool>Eeschema 8.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BMU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e33c8b2f-f9ef-4cc0-946e-998ad4f24045</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1749777f-25f4-4d63-bd3c-dd87268c2c62</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf3acbca-8d69-462b-a54d-47ae1b5027f2</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc9939f9-0773-4960-8fcd-3a29f88f6136</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>green</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7d4865c-fd6e-4dbc-985e-38aa8213ae32</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>yellow</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5afbd8e8-cf68-4492-a12b-a8a1b283f188</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>CDBA340-HF</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</datasheet>
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</field>
+        <field name="Description">40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</field>
+      </fields>
+      <libsource lib="Diode" part="CDBA340-HF" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baf465d2-f9e9-4fdd-9a74-01f9d7661133</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <description>Fuse</description>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ec8322-1ca0-41f4-ae08-74261449a4c0</tstamps>
+    </comp>
+    <comp ref="gate1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">Connector_Pin:Pin_D1.0mm_L10.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeaee8d7-9651-4386-95f1-7c3fa0ab9f8d</tstamps>
+    </comp>
+    <comp ref="hsup1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">Connector_Pin:Pin_D1.0mm_L10.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f3641c8-ce1f-43bb-ab3d-c05e51db075a</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>HY2213-BB3A</value>
+      <footprint>SOT95P280X140-6N</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</datasheet>
+      <description>PMIC - Battery Management SOT-23-6 RoHS</description>
+      <fields>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Hycon</field>
+        <field name="Manufacturer_Part_Number">HY2213-BB3A</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+        <field name="Footprint">SOT95P280X140-6N</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</field>
+        <field name="Description">PMIC - Battery Management SOT-23-6 RoHS</field>
+      </fields>
+      <libsource lib="HY2213-BB3A" part="HY2213-BB3A" description="PMIC - Battery Management SOT-23-6 RoHS"/>
+      <property name="Height" value="1.4"/>
+      <property name="Manufacturer_Name" value="Hycon"/>
+      <property name="Manufacturer_Part_Number" value="HY2213-BB3A"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71e0237d-cee3-4151-9fa6-74cc3521bc35</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_PowerOnly_6P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <fields>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB Power-Only 6P Type-C Receptacle connector</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C power-only charging-only 6P 6C"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4bd708d-fda5-41cf-b51c-745614069f33</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</footprint>
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd76a480-2219-45d1-8e18-c5bb654dfcdc</tstamps>
+    </comp>
+    <comp ref="n1g1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">Connector_Pin:Pin_D1.0mm_L10.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dcce6d1-79bf-4172-9117-dd8908010c39</tstamps>
+    </comp>
+    <comp ref="n2g1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">Connector_Pin:Pin_D1.0mm_L10.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6f9db25-e56b-42bb-a6b3-f1f0b0db045d</tstamps>
+    </comp>
+    <comp ref="n2s1">
+      <value>TestPoint</value>
+      <footprint>Connector_Pin:Pin_D1.0mm_L10.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">Connector_Pin:Pin_D1.0mm_L10.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6853ae8c-6975-4b82-a3f9-8ffd01c3237b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>FS8205A</value>
+      <footprint>SOT-23-6L_TCP</footprint>
+      <datasheet>FS8205A</datasheet>
+      <fields>
+        <field name="Footprint">SOT-23-6L_TCP</field>
+        <field name="Datasheet">FS8205A</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="FS8205A" part="FS8205A" description=""/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="FS8205A"/>
+      <property name="ki_fp_filters" value="SOT-23-6L_TCP SOT-23-6L_TCP-M SOT-23-6L_TCP-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c239f7-527a-4ce1-b06b-451a97e9d28e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c7c9337-b887-407c-ba55-e02f500d4e76</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BUK7880-55A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf</datasheet>
+      <description>7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf</field>
+        <field name="Description">7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BUK7880-55A" description="7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="n-channel n channel mosfet enhancement mode"/>
+      <property name="ki_fp_filters" value="SOT?223*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24747041-3ebb-41f2-ad62-5e14b0b6ac31</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f307b92f-a08a-4b70-9dd4-ca9d43cf50a2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e39ce0de-aec2-4e7f-ac17-f4741130a632</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1518dddd-39b7-4901-ab38-fc949f9b01ea</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>763d3d38-4655-4574-8ca2-e41e6e206bcb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60306082-a8d0-4ef2-8423-6d3e63be21e1</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c567a248-b398-4780-b015-7ddabf9ce4d4</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e342a4ba-1a9e-41be-be5a-48da831e4532</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a5da90b-bbe1-4be5-869d-2db33f61217c</tstamps>
+    </comp>
+    <comp ref="Rpull1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e2f5dac-85b5-4cc3-9f20-821d216fb30d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DW01A</value>
+      <footprint>DW01A:SOT95P280X145-6N</footprint>
+      <fields>
+        <field name="MF">Fortune Semiconductor</field>
+        <field name="SNAPEDA_PACKAGE_ID">103849</field>
+        <field name="Package">SOT-23-6 Fortune Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1.8</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=snap</field>
+        <field name="MP">DW01A</field>
+        <field name="Description_1">
+One Cell Lithium-ion/Polymer Battery Protection IC
+</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
+        <field name="Footprint">DW01A:SOT95P280X145-6N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="DW01A" part="DW01A" description=""/>
+      <property name="MF" value="Fortune Semiconductor"/>
+      <property name="SNAPEDA_PACKAGE_ID" value="103849"/>
+      <property name="Package" value="SOT-23-6 Fortune Semiconductor"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="1.8"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=snap"/>
+      <property name="MP" value="DW01A"/>
+      <property name="Description_1" value="&#xA;One Cell Lithium-ion/Polymer Battery Protection IC&#xA;"/>
+      <property name="MANUFACTURER" value="Fortune Semiconductor"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0df40168-d200-449e-8bc3-9385b1de29e8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TP4056</value>
+      <footprint>TP4056:SOP127P600X175-9N</footprint>
+      <fields>
+        <field name="MF">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap</field>
+        <field name="MP">TP4056</field>
+        <field name="Description_1">
+Complete single cell Li-Ion battery with a constant current / constant voltage linear charger
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+        <field name="Footprint">TP4056:SOP127P600X175-9N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TP4056" part="TP4056" description=""/>
+      <property name="MF" value="NanJing Top Power ASIC Corp."/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="Package" value="Package"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap"/>
+      <property name="MP" value="TP4056"/>
+      <property name="Description_1" value="&#xA;Complete single cell Li-Ion battery with a constant current / constant voltage linear charger&#xA;"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="NanJing Top Power ASIC Corp."/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="BMU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de91e2d1-d851-4266-9fd7-75f6baa5cc64</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_PowerOnly_6P">
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_PowerOnly_6P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB Power-Only 6P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DW01A" part="DW01A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DW01A</field>
+        <field name="Footprint">DW01A:SOT95P280X145-6N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Fortune Semiconductor</field>
+        <field name="SNAPEDA_PACKAGE_ID">103849</field>
+        <field name="Package">SOT-23-6 Fortune Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1.8</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/DW01A/Fortune+Semiconductor/view-part/?ref=snap</field>
+        <field name="MP">DW01A</field>
+        <field name="Description_1">
+One Cell Lithium-ion/Polymer Battery Protection IC
+</field>
+        <field name="MANUFACTURER">Fortune Semiconductor</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="output"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="OC" type="output"/>
+        <pin num="4" name="TD" type="passive"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="CDBA340-HF">
+      <description>40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDBA340-HF</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf</field>
+        <field name="Description">40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FS8205A" part="FS8205A">
+      <docs>FS8205A</docs>
+      <footprints>
+        <fp>SOT-23-6L_TCP</fp>
+        <fp>SOT-23-6L_TCP-M</fp>
+        <fp>SOT-23-6L_TCP-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FS8205A</field>
+        <field name="Footprint">SOT-23-6L_TCP</field>
+        <field name="Datasheet">FS8205A</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="HY2213-BB3A" part="HY2213-BB3A">
+      <description>PMIC - Battery Management SOT-23-6 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HY2213-BB3A</field>
+        <field name="Footprint">SOT95P280X140-6N</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf</field>
+        <field name="Description">PMIC - Battery Management SOT-23-6 RoHS</field>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Hycon</field>
+        <field name="Manufacturer_Part_Number">HY2213-BB3A</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Arrow Part Number"/>
+        <field name="Arrow Price/Stock"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="passive"/>
+        <pin num="2" name="VDD" type="passive"/>
+        <pin num="3" name="VSS" type="passive"/>
+        <pin num="4" name="NC_2" type="passive"/>
+        <pin num="5" name="NC_3" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TP4056" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+        <field name="Footprint">TP4056:SOP127P600X175-9N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">NanJing Top Power ASIC Corp.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="Package">Package</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=eda</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TP4056/NanJing+Top+Power+ASIC+Corp./view-part/?ref=snap</field>
+        <field name="MP">TP4056</field>
+        <field name="Description_1">
+Complete single cell Li-Ion battery with a constant current / constant voltage linear charger
+</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">NanJing Top Power ASIC Corp.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="BAT" type="output"/>
+        <pin num="6" name="~{STDBY}" type="output"/>
+        <pin num="7" name="~{CHRG}" type="output"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUK7880-55A">
+      <description>7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUK7880-55A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf</field>
+        <field name="Description">7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\Programme\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="DW01A">
+      <uri>D:\Programme\share\kicad\symbols\/DW01A.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Programme\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Programme\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="FS8205A">
+      <uri>D:\Programme\share\kicad\symbols\/FS8205A.kicad_sym</uri>
+    </library>
+    <library logical="HY2213-BB3A">
+      <uri>D:\Programme\share\kicad\symbols\/HY2213-BB3A.kicad_sym</uri>
+    </library>
+    <library logical="TP4056">
+      <uri>D:\Programme\share\kicad\symbols\/TP4056.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Programme\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="Rpull1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{STDBY}" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="~{CHRG}" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(IC1-OUT)">
+      <node ref="IC1" pin="6" pinfunction="OUT" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="gate1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(IC1-VDD)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="VDD" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(IC1-VSS)">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="VSS" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="Rpull1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="n2s1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J2-Pin_5)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(Q2-D)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q3-D)">
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U1-CS)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U1-OC)">
+      <node ref="Q1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="OC" pintype="output"/>
+      <node ref="n2g1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-OD)">
+      <node ref="Q1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="OD" pintype="output"/>
+      <node ref="n1g1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(U1-VCC)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="18" name="Net-(U2-PROG)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PROG" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="PMOS-Drain">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="BAT" pintype="output"/>
+      <node ref="hsup1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(IC1-NC_1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="NC_1" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(IC1-NC_2-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="NC_2" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(IC1-NC_3-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="NC_3" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J1-CC1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(J1-CC2-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(J1-SHIELD-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="27" name="unconnected-(Q1-Pad5)">
+      <node ref="Q1" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="28" name="unconnected-(U1-TD-Pad4)">
+      <node ref="U1" pin="4" pinfunction="TD" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(U2-EP-Pad9)">
+      <node ref="U2" pin="9" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(U2-TEMP-Pad1)">
+      <node ref="U2" pin="1" pinfunction="TEMP" pintype="input"/>
+    </net>
+  </nets>
+</export>
