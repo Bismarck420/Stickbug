@@ -5,32 +5,38 @@
 	(uuid "c6d0ef42-cb55-4b3c-bba2-342c4c1ccbdf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Batteriestecker:Batteriestecker"
+		(symbol "BK-18650-PC8:BK-18650-PC8"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "BT"
+				(at -3.81 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BK-18650-PC8"
+				(at -3.81 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BK-18650-PC8:BAT_BK-18650-PC8"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -52,52 +58,651 @@
 					(hide yes)
 				)
 			)
-			(symbol "Batteriestecker_0_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 5.08 -5.08)
+			(property "MF" "MPD (Memory Protection Devices)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "21.54 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BK-18650-PC8/Memory+Protection+Devices/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BK-18650-PC8/Memory+Protection+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BK-18650-PC8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nBattery Holder (Open) 18650 4 Cell PC Pin\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "MPD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BK-18650-PC8_0_0"
+				(polyline
+					(pts
+						(xy -3.81 -10.795) (xy -2.54 -10.795)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Batteriestecker_1_1"
-				(pin input line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "BAT+"
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy -2.54 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 4.445) (xy -2.54 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 12.065) (xy -2.54 12.065)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -10.16) (xy -3.175 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -2.54) (xy -3.175 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 5.08) (xy -3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 12.7) (xy -3.175 11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -1.27 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -1.27 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 1.27 -13.97)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -11.43) (xy 1.27 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 1.27 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 10.16) (xy 2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 11.43) (xy 1.27 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "1+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "BAT-"
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "2"
+					(number "1-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4-"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1380,6 +1985,12 @@
 		(uuid "4295d702-a8bf-4269-8dcc-58a764a13bb6")
 	)
 	(junction
+		(at 134.62 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8407ba05-8e7c-4de5-ba9b-11f5c4094bfc")
+	)
+	(junction
 		(at 121.92 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1396,6 +2007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa0ab52a-84dd-4d51-bbf0-6ef1a8001ecd")
+	)
+	(junction
+		(at 49.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0d38dc0-15c6-42d8-a4a0-e56ecc711e88")
 	)
 	(junction
 		(at 102.87 53.34)
@@ -1603,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 68.58) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3182791b-11b3-485f-be13-6ecce7c78701")
+	)
+	(wire
+		(pts
 			(xy 121.92 71.12) (xy 121.92 68.58)
 		)
 		(stroke
@@ -1623,6 +2250,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 77.47) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f823dcb-0031-40a4-9fda-80daa3b4fb6e")
+	)
+	(wire
+		(pts
+			(xy 219.71 129.54) (xy 219.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9be77d-ea11-4b56-ab8e-9e14b5807fa4")
+	)
+	(wire
+		(pts
 			(xy 133.35 71.12) (xy 139.7 71.12)
 		)
 		(stroke
@@ -1633,7 +2280,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 134.62 81.28)
+			(xy 146.05 77.47) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47960a43-2bd2-428c-a22a-88f343bdfbb9")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 134.62 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1670,6 +2327,16 @@
 			(type default)
 		)
 		(uuid "4f7f3d36-4cdf-4ace-89aa-293c726046ac")
+	)
+	(wire
+		(pts
+			(xy 219.71 121.92) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faab07a-9fd1-42b8-ac47-a1bc21865d23")
 	)
 	(wire
 		(pts
@@ -1743,6 +2410,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 118.11) (xy 204.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d6801c-d4e5-4321-8e84-d3aa398d75e5")
+	)
+	(wire
+		(pts
 			(xy 80.01 48.26) (xy 82.55 48.26)
 		)
 		(stroke
@@ -1760,6 +2437,16 @@
 			(type default)
 		)
 		(uuid "6e07797e-5c39-4bcb-ba27-5b501e82b168")
+	)
+	(wire
+		(pts
+			(xy 219.71 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788b8ce4-04f8-40cc-9fbb-d066cfe80586")
 	)
 	(wire
 		(pts
@@ -1783,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 68.58) (xy 49.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b654ca9-0fa5-477c-868e-dcb375e5ab86")
+	)
+	(wire
+		(pts
 			(xy 101.6 54.61) (xy 132.08 54.61)
 		)
 		(stroke
@@ -1790,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "81a4641f-ad31-4765-ad8a-efa5e3b2a109")
+	)
+	(wire
+		(pts
+			(xy 204.47 125.73) (xy 204.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ac1505-cbb9-49f9-97d9-b557364a5e67")
 	)
 	(wire
 		(pts
@@ -1843,6 +2550,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 114.3) (xy 219.71 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b331230-c624-4c92-9a2a-78e57e6e75a4")
+	)
+	(wire
+		(pts
 			(xy 54.61 43.18) (xy 52.07 43.18)
 		)
 		(stroke
@@ -1850,6 +2567,26 @@
 			(type default)
 		)
 		(uuid "9ca268d4-ff65-4ca4-9842-23176d8462f1")
+	)
+	(wire
+		(pts
+			(xy 204.47 133.35) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c487af-fafe-448c-bfae-eb36ee7b3af9")
+	)
+	(wire
+		(pts
+			(xy 204.47 118.11) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a8d866-1098-4f0a-a464-4849df6d5abd")
 	)
 	(wire
 		(pts
@@ -1973,6 +2710,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 81.28) (xy 146.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1feffa-8653-4d14-a186-f81f709e7f58")
+	)
+	(wire
+		(pts
+			(xy 219.71 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de53b4dd-4589-47d2-9b01-3d8b1728eba7")
+	)
+	(wire
+		(pts
 			(xy 99.06 43.18) (xy 99.06 77.47)
 		)
 		(stroke
@@ -2066,6 +2823,18 @@
 		(uuid 604eb3e4-4dc5-4f96-92a7-73597e954946)
 	)
 	(rectangle
+		(start 181.61 100.33)
+		(end 241.3 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a019fc0c-923a-4e06-93b2-7f23e71587e9)
+	)
+	(rectangle
 		(start 43.18 29.21)
 		(end 165.1 93.98)
 		(stroke
@@ -2106,6 +2875,38 @@
 			)
 		)
 		(uuid "939569e0-d3dc-4a8d-aa93-77add8a61527")
+	)
+	(text "18650-Li-Ionen-Zellen\n"
+		(exclude_from_sim no)
+		(at 194.31 148.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee9d1299-d3c6-4d1d-9573-ae84b17c4de8")
+	)
+	(global_label "CELLS+"
+		(shape input)
+		(at 48.26 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06571b8c-b5be-456a-b3e0-65ed4b178b53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 88.9823 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SW1"
 		(shape input)
@@ -2239,6 +3040,28 @@
 			)
 		)
 	)
+	(global_label "CELLS-"
+		(shape input)
+		(at 219.71 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77e78fb0-1902-4925-ad95-33c56c5dceef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9523 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VRX2"
 		(shape input)
 		(at 86.36 148.59 0)
@@ -2362,6 +3185,50 @@
 		(uuid "b2f85d41-c924-4df9-9604-1b6e86112344")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.44 55.9019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CELLS+"
+		(shape input)
+		(at 204.47 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba58ded5-898d-40c2-80eb-f5f471b8b257")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.2277 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CELLS-"
+		(shape input)
+		(at 146.05 81.28 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c424bd70-3223-43bd-a701-8fc0541e604d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 91.5223 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,44 +3985,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Batteriestecker:Batteriestecker")
-		(at 185.42 121.92 0)
+		(lib_id "BK-18650-PC8:BK-18650-PC8")
+		(at 212.09 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e9b470f-31ee-4cf7-99a9-1d4d02c88669")
-		(property "Reference" "U2"
-			(at 191.77 121.2849 0)
+		(uuid "849deb88-e463-4be6-a27c-be6a06d2fdf9")
+		(property "Reference" "BT2"
+			(at 211.455 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 191.77 123.19 0)
+		(property "Value" "BK-18650-PC8"
+			(at 211.455 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 121.92 0)
+		(property "Footprint" "BK-18650-PC8:BAT_BK-18650-PC8"
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 121.92 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +4030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 121.92 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,16 +4038,154 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ebaf8b42-899a-44ee-8387-70e3bc288d07")
+		(property "MF" "MPD (Memory Protection Devices)"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "53400493-dec4-4681-aac1-a3ef27a2c521")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "21.54 mm"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BK-18650-PC8/Memory+Protection+Devices/view-part/?ref=eda"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "L"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BK-18650-PC8/Memory+Protection+Devices/view-part/?ref=snap"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BK-18650-PC8"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nBattery Holder (Open) 18650 4 Cell PC Pin\n"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MPD"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4+"
+			(uuid "4e59c8a6-1447-4087-babf-01b97e34b9a2")
+		)
+		(pin "3-"
+			(uuid "ebdc4e22-ce1a-4f45-b7dd-d843dc831199")
+		)
+		(pin "1+"
+			(uuid "4833fd62-0dc5-46bd-b754-5b9913186c43")
+		)
+		(pin "2-"
+			(uuid "88b2e631-bded-480a-9ab5-100db936e77d")
+		)
+		(pin "2+"
+			(uuid "961bb38f-e38c-44f6-924c-0f930cbf8b70")
+		)
+		(pin "3+"
+			(uuid "6fdc838c-b7cf-409c-9ed3-08a6eb250265")
+		)
+		(pin "4-"
+			(uuid "2c515421-32fe-4f2d-a8fc-ff3f226f3c59")
+		)
+		(pin "1-"
+			(uuid "0889d5ca-4e35-4555-be78-c8285f2d522c")
 		)
 		(instances
 			(project ""
 				(path "/c6d0ef42-cb55-4b3c-bba2-342c4c1ccbdf"
-					(reference "U2")
+					(reference "BT2")
 					(unit 1)
 				)
 			)
