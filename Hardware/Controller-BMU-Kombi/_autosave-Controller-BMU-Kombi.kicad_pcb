@@ -3101,7 +3101,7 @@
 	(footprint "Batteriestecker:Batteriestecker"
 		(layer "F.Cu")
 		(uuid "7e8472b5-fad2-4897-98fc-947a4a7e9435")
-		(at 53.38 101.64)
+		(at 62.27 104.1)
 		(property "Reference" "U8"
 			(at 0 -0.5 0)
 			(unlocked yes)
