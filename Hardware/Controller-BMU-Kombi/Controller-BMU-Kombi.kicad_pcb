@@ -3101,7 +3101,7 @@
 	(footprint "Batteriestecker:Batteriestecker"
 		(layer "F.Cu")
 		(uuid "7e8472b5-fad2-4897-98fc-947a4a7e9435")
-		(at 53.38 101.64)
+		(at 62.27 104.1)
 		(property "Reference" "U8"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -5218,7 +5218,7 @@
 			(uuid "df625746-90fa-4487-a3d5-4246bc8fae60")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.775 5.08 360)
+			(at -5.775 5.08 0)
 			(layer "F.Fab")
 			(uuid "2f77f2d5-7996-4240-838c-70b7bbcf65d2")
 			(effects
@@ -6018,7 +6018,7 @@
 			(uuid "2fb82fb0-46f4-4e36-ad29-667d6f7cc762")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.775 5.08 360)
+			(at -5.775 5.08 0)
 			(layer "F.Fab")
 			(uuid "7b3f50e2-55a0-454e-b604-699dce937252")
 			(effects
@@ -6100,7 +6100,7 @@
 		(uuid "fa120519-ec73-4e03-bb21-32a6b458ee73")
 		(at 148.29 109.22 180)
 		(property "Reference" "U2"
-			(at -11.075 -29.385 360)
+			(at -11.075 -29.385 0)
 			(layer "F.SilkS")
 			(uuid "e9b7bad9-d1d5-4f59-9e98-81bd9ff742ef")
 			(effects
@@ -6111,7 +6111,7 @@
 			)
 		)
 		(property "Value" "ESP32_NODEMCU"
-			(at -1.55 29.385 360)
+			(at -1.55 29.385 0)
 			(layer "F.Fab")
 			(uuid "63ea3e16-54db-47e6-a5e7-7dfc8945b37d")
 			(effects
@@ -6122,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" "ESP32_NODEMCU:MODULE_ESP32_NODEMCU"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7845817d-256f-4fc9-ab81-256aecd9ffb1")
@@ -6134,7 +6134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7af3ada8-fac6-4ea1-a6f1-9c4f33acbe59")
@@ -6146,7 +6146,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e7dd3135-eae9-47b6-b709-5b6e7a14ffac")
