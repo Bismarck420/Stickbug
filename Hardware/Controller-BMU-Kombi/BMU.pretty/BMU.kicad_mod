@@ -67,6 +67,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -9.44 -39.9375)
+		(end 8 41.9375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "64f0f2c2-eae2-44de-8be3-d917b00f920d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "64512ec8-0507-4831-953f-ee2d473b0294")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
