@@ -1,4 +1,4 @@
-(footprint "BMU"
+(footprint "Empfänger"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "91913ca8-4201-46ea-b398-8671f02d5770")
+		(uuid "c9020acb-b413-4dd2-915a-9bf547d0f168")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "BMU"
+	(property "Value" "Empfänger"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "525cbe85-e319-4d85-a2c2-1d41ce94fcfa")
+		(uuid "aad1bc26-002c-4924-b308-0576a3417183")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68105b27-d86c-47d8-babb-855edcad9b96")
+		(uuid "ccdd1ca4-fedd-4f66-957b-2d96e3a75538")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d7040308-0cf5-48a8-b352-0c24b0fbb94e")
+		(uuid "7817f159-5058-44cc-a73f-f7d254ddc23d")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "235628b1-a0f8-4e6d-a1df-42c2f23bf643")
+		(uuid "276eebaf-fdef-4eec-adfb-5c1a81a58461")
 		(effects
 			(font
 				(size 1 1)
@@ -68,43 +68,32 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -8.55 -41.19)
-		(end 8.89 40.685)
+		(start -7 -15)
+		(end 7 15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "64f0f2c2-eae2-44de-8be3-d917b00f920d")
+		(uuid "e7ceb3b1-c726-4a16-bd2f-08ff67066e71")
 	)
 	(fp_rect
-		(start -8.55 37)
-		(end 9 40.685)
+		(start -7 5.5)
+		(end -4.5 13.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "e94e814c-9d33-4356-ade8-59e8dcbecddd")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 2 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "64512ec8-0507-4831-953f-ee2d473b0294")
+		(uuid "3b11582b-9a33-4d62-a27a-3797a0f06b2a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a1527712-0ffa-429f-b44d-e8d216431a09")
+		(uuid "a52a34cc-8486-4192-864a-d597ca75b199")
 		(effects
 			(font
 				(size 1 1)

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Batteriestecker")(type "KiCad")(uri "${KIPRJMOD}/Batteriestecker.kicad_sym")(options "")(descr ""))
   (lib (name "BMU")(type "KiCad")(uri "${KIPRJMOD}/BMU.kicad_sym")(options "")(descr ""))
+  (lib (name "Lokale Bibliothek")(type "KiCad")(uri "${KIPRJMOD}/Lokale Bibliothek.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMU")(type "KiCad")(uri "D:/Allgemein/Privat/Projekte/Stickbug/Stickbug/Hardware/Controller-BMU-Kombi/BMU.kicad_sym")(options "")(descr ""))
+)
